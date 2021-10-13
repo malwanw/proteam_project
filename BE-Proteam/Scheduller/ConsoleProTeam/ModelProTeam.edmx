@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="ProteamModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="EmployeeSkill">
+          <Key>
+            <PropertyRef Name="EmpSkill_id" />
+          </Key>
+          <Property Name="EmpSkill_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Employee_id" Type="int" />
+          <Property Name="Skillset_id" Type="int" />
+        </EntityType>
+        <EntityType Name="Jenjab">
+          <Key>
+            <PropertyRef Name="Jenjab_id" />
+          </Key>
+          <Property Name="Jenjab_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="JenjangJabatan" Type="nvarchar" MaxLength="50" />
+          <Property Name="Cost" Type="money" />
+          <Property Name="Status" Type="int" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="CreatedTime" Type="date" />
+          <Property Name="UpdateTime" Type="date" />
+        </EntityType>
+        <EntityType Name="Kelompok">
+          <Key>
+            <PropertyRef Name="Kelompok_id" />
+          </Key>
+          <Property Name="Kelompok_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Kelompok" Type="nvarchar" MaxLength="50" />
+          <Property Name="Status" Type="int" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="CreatedTime" Type="date" />
+          <Property Name="UpdateTime" Type="date" />
+          <Property Name="DivisiId" Type="int" />
+        </EntityType>
+        <EntityType Name="Lookup">
+          <Key>
+            <PropertyRef Name="Lookup_id" />
+          </Key>
+          <Property Name="Lookup_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Type" Type="nvarchar" MaxLength="50" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
+          <Property Name="OrderNumber" Type="int" />
+          <Property Name="Value" Type="int" />
+          <Property Name="Status" Type="int" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="CreatedTime" Type="date" />
+          <Property Name="UpdateTime" Type="date" />
+        </EntityType>
+        <EntityType Name="Mandays">
+          <Key>
+            <PropertyRef Name="Mandays_id" />
+          </Key>
+          <Property Name="Mandays_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="VendorName" Type="nvarchar" MaxLength="50" />
+          <Property Name="ContractNumber" Type="nvarchar" MaxLength="50" />
+          <Property Name="StartContract" Type="date" />
+          <Property Name="LastContract" Type="date" />
+          <Property Name="TotalMandays" Type="int" />
+          <Property Name="UsageMandays" Type="int" />
+          <Property Name="AvailableMandays" Type="int" />
+          <Property Name="Status" Type="int" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="CreatedTime" Type="date" />
+          <Property Name="UpdateTime" Type="date" />
+          <Property Name="Notes" Type="text" />
+        </EntityType>
+        <EntityType Name="ResourceEmployee">
+          <Key>
+            <PropertyRef Name="Employee_id" />
+          </Key>
+          <Property Name="Employee_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Employee_name" Type="nvarchar" MaxLength="50" />
+          <Property Name="NPP" Type="nvarchar" MaxLength="50" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+          <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+          <Property Name="ActiveDate" Type="date" />
+          <Property Name="LastWorkDate" Type="date" />
+          <Property Name="TotalManhour" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="ResourceType" Type="int" />
+          <Property Name="Jenjab_id" Type="int" />
+          <Property Name="Kelompok_id" Type="int" />
+          <Property Name="Role" Type="int" />
+          <Property Name="ProjectExp" Type="nchar" MaxLength="10" />
+          <Property Name="Status" Type="int" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="CreatedTime" Type="date" />
+          <Property Name="UpdateTime" Type="date" />
+          <Property Name="Divisi" Type="int" />
+          <Property Name="Vendor" Type="int" />
+        </EntityType>
+        <EntityType Name="Skillset">
+          <Key>
+            <PropertyRef Name="Skillset_id" />
+          </Key>
+          <Property Name="Skillset_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Skillset" Type="nvarchar" MaxLength="50" />
+          <Property Name="Status" Type="int" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="CreatedTime" Type="date" />
+          <Property Name="UpdateTime" Type="date" />
+        </EntityType>
+        <EntityType Name="UnitProfiling">
+          <Key>
+            <PropertyRef Name="Unit_id" />
+          </Key>
+          <Property Name="Unit_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Kelompok_id" Type="int" />
+          <Property Name="TotalEmployee" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="TotalManhour" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="Status" Type="int" />
+          <Property Name="CreatedTime" Type="date" />
+          <Property Name="UpdatedTime" Type="date" />
+          <Property Name="KelompokName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Skill" Type="text" />
+          <Property Name="StatusName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Divisi_id" Type="int" />
+          <Property Name="DivisiName" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_EmployeeSkill_ResourceEmployee">
+          <End Role="ResourceEmployee" Type="Self.ResourceEmployee" Multiplicity="0..1" />
+          <End Role="EmployeeSkill" Type="Self.EmployeeSkill" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ResourceEmployee">
+              <PropertyRef Name="Employee_id" />
+            </Principal>
+            <Dependent Role="EmployeeSkill">
+              <PropertyRef Name="Employee_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EmployeeSkill_Skillset">
+          <End Role="Skillset" Type="Self.Skillset" Multiplicity="0..1" />
+          <End Role="EmployeeSkill" Type="Self.EmployeeSkill" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Skillset">
+              <PropertyRef Name="Skillset_id" />
+            </Principal>
+            <Dependent Role="EmployeeSkill">
+              <PropertyRef Name="Skillset_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_jenjab_id">
+          <End Role="Jenjab" Type="Self.Jenjab" Multiplicity="0..1" />
+          <End Role="ResourceEmployee" Type="Self.ResourceEmployee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Jenjab">
+              <PropertyRef Name="Jenjab_id" />
+            </Principal>
+            <Dependent Role="ResourceEmployee">
+              <PropertyRef Name="Jenjab_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ResourceEmployee_Jenjab">
+          <End Role="Jenjab" Type="Self.Jenjab" Multiplicity="0..1" />
+          <End Role="ResourceEmployee" Type="Self.ResourceEmployee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Jenjab">
+              <PropertyRef Name="Jenjab_id" />
+            </Principal>
+            <Dependent Role="ResourceEmployee">
+              <PropertyRef Name="Jenjab_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ResourceEmployee_Kelompok">
+          <End Role="Kelompok" Type="Self.Kelompok" Multiplicity="0..1" />
+          <End Role="ResourceEmployee" Type="Self.ResourceEmployee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kelompok">
+              <PropertyRef Name="Kelompok_id" />
+            </Principal>
+            <Dependent Role="ResourceEmployee">
+              <PropertyRef Name="Kelompok_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UnitProfiling_Kelompok">
+          <End Role="Kelompok" Type="Self.Kelompok" Multiplicity="0..1" />
+          <End Role="UnitProfiling" Type="Self.UnitProfiling" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kelompok">
+              <PropertyRef Name="Kelompok_id" />
+            </Principal>
+            <Dependent Role="UnitProfiling">
+              <PropertyRef Name="Kelompok_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ProteamModelStoreContainer">
+          <EntitySet Name="EmployeeSkill" EntityType="Self.EmployeeSkill" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Jenjab" EntityType="Self.Jenjab" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Kelompok" EntityType="Self.Kelompok" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Lookup" EntityType="Self.Lookup" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Mandays" EntityType="Self.Mandays" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ResourceEmployee" EntityType="Self.ResourceEmployee" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Skillset" EntityType="Self.Skillset" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UnitProfiling" EntityType="Self.UnitProfiling" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_EmployeeSkill_ResourceEmployee" Association="Self.FK_EmployeeSkill_ResourceEmployee">
+            <End Role="ResourceEmployee" EntitySet="ResourceEmployee" />
+            <End Role="EmployeeSkill" EntitySet="EmployeeSkill" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EmployeeSkill_Skillset" Association="Self.FK_EmployeeSkill_Skillset">
+            <End Role="Skillset" EntitySet="Skillset" />
+            <End Role="EmployeeSkill" EntitySet="EmployeeSkill" />
+          </AssociationSet>
+          <AssociationSet Name="fk_jenjab_id" Association="Self.fk_jenjab_id">
+            <End Role="Jenjab" EntitySet="Jenjab" />
+            <End Role="ResourceEmployee" EntitySet="ResourceEmployee" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ResourceEmployee_Jenjab" Association="Self.FK_ResourceEmployee_Jenjab">
+            <End Role="Jenjab" EntitySet="Jenjab" />
+            <End Role="ResourceEmployee" EntitySet="ResourceEmployee" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ResourceEmployee_Kelompok" Association="Self.FK_ResourceEmployee_Kelompok">
+            <End Role="Kelompok" EntitySet="Kelompok" />
+            <End Role="ResourceEmployee" EntitySet="ResourceEmployee" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UnitProfiling_Kelompok" Association="Self.FK_UnitProfiling_Kelompok">
+            <End Role="Kelompok" EntitySet="Kelompok" />
+            <End Role="UnitProfiling" EntitySet="UnitProfiling" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ProteamModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="EmployeeSkill">
+          <Key>
+            <PropertyRef Name="EmpSkill_id" />
+          </Key>
+          <Property Name="EmpSkill_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Employee_id" Type="Int32" />
+          <Property Name="Skillset_id" Type="Int32" />
+          <NavigationProperty Name="ResourceEmployee" Relationship="Self.FK_EmployeeSkill_ResourceEmployee" FromRole="EmployeeSkill" ToRole="ResourceEmployee" />
+          <NavigationProperty Name="Skillset" Relationship="Self.FK_EmployeeSkill_Skillset" FromRole="EmployeeSkill" ToRole="Skillset" />
+        </EntityType>
+        <EntityType Name="Jenjab">
+          <Key>
+            <PropertyRef Name="Jenjab_id" />
+          </Key>
+          <Property Name="Jenjab_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="JenjangJabatan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Cost" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Status" Type="Int32" />
+          <Property Name="CreatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedTime" Type="DateTime" Precision="0" />
+          <Property Name="UpdateTime" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="ResourceEmployees" Relationship="Self.fk_jenjab_id" FromRole="Jenjab" ToRole="ResourceEmployee" />
+          <NavigationProperty Name="ResourceEmployees1" Relationship="Self.FK_ResourceEmployee_Jenjab" FromRole="Jenjab" ToRole="ResourceEmployee" />
+        </EntityType>
+        <EntityType Name="Kelompok">
+          <Key>
+            <PropertyRef Name="Kelompok_id" />
+          </Key>
+          <Property Name="Kelompok_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Kelompok1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Status" Type="Int32" />
+          <Property Name="CreatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedTime" Type="DateTime" Precision="0" />
+          <Property Name="UpdateTime" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="ResourceEmployees" Relationship="Self.FK_ResourceEmployee_Kelompok" FromRole="Kelompok" ToRole="ResourceEmployee" />
+          <NavigationProperty Name="UnitProfilings" Relationship="Self.FK_UnitProfiling_Kelompok" FromRole="Kelompok" ToRole="UnitProfiling" />
+          <Property Name="DivisiId" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Lookup">
+          <Key>
+            <PropertyRef Name="Lookup_id" />
+          </Key>
+          <Property Name="Lookup_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="OrderNumber" Type="Int32" />
+          <Property Name="Value" Type="Int32" />
+          <Property Name="Status" Type="Int32" />
+          <Property Name="CreatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedTime" Type="DateTime" Precision="0" />
+          <Property Name="UpdateTime" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="Manday">
+          <Key>
+            <PropertyRef Name="Mandays_id" />
+          </Key>
+          <Property Name="Mandays_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="VendorName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ContractNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="StartContract" Type="DateTime" Precision="0" />
+          <Property Name="LastContract" Type="DateTime" Precision="0" />
+          <Property Name="TotalMandays" Type="Int32" />
+          <Property Name="UsageMandays" Type="Int32" />
+          <Property Name="AvailableMandays" Type="Int32" />
+          <Property Name="Status" Type="Int32" />
+          <Property Name="CreatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedTime" Type="DateTime" Precision="0" />
+          <Property Name="UpdateTime" Type="DateTime" Precision="0" />
+          <Property Name="Notes" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="ResourceEmployee">
+          <Key>
+            <PropertyRef Name="Employee_id" />
+          </Key>
+          <Property Name="Employee_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Employee_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NPP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ActiveDate" Type="DateTime" Precision="0" />
+          <Property Name="LastWorkDate" Type="DateTime" Precision="0" />
+          <Property Name="TotalManhour" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="ResourceType" Type="Int32" />
+          <Property Name="Jenjab_id" Type="Int32" />
+          <Property Name="Kelompok_id" Type="Int32" />
+          <Property Name="Role" Type="Int32" />
+          <Property Name="ProjectExp" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Status" Type="Int32" />
+          <Property Name="CreatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedTime" Type="DateTime" Precision="0" />
+          <Property Name="UpdateTime" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="EmployeeSkills" Relationship="Self.FK_EmployeeSkill_ResourceEmployee" FromRole="ResourceEmployee" ToRole="EmployeeSkill" />
+          <NavigationProperty Name="Jenjab" Relationship="Self.fk_jenjab_id" FromRole="ResourceEmployee" ToRole="Jenjab" />
+          <NavigationProperty Name="Jenjab1" Relationship="Self.FK_ResourceEmployee_Jenjab" FromRole="ResourceEmployee" ToRole="Jenjab" />
+          <NavigationProperty Name="Kelompok" Relationship="Self.FK_ResourceEmployee_Kelompok" FromRole="ResourceEmployee" ToRole="Kelompok" />
+          <Property Name="Divisi" Type="Int32" />
+          <Property Name="Vendor" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Skillset">
+          <Key>
+            <PropertyRef Name="Skillset_id" />
+          </Key>
+          <Property Name="Skillset_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Skillset1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Status" Type="Int32" />
+          <Property Name="CreatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedTime" Type="DateTime" Precision="0" />
+          <Property Name="UpdateTime" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="EmployeeSkills" Relationship="Self.FK_EmployeeSkill_Skillset" FromRole="Skillset" ToRole="EmployeeSkill" />
+        </EntityType>
+        <EntityType Name="UnitProfiling">
+          <Key>
+            <PropertyRef Name="Unit_id" />
+          </Key>
+          <Property Name="Unit_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Kelompok_id" Type="Int32" />
+          <Property Name="TotalEmployee" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="TotalManhour" Type="Decimal" Precision="18" Scale="0" />
+          <NavigationProperty Name="Kelompok" Relationship="Self.FK_UnitProfiling_Kelompok" FromRole="UnitProfiling" ToRole="Kelompok" />
+          <Property Name="Status" Type="Int32" />
+          <Property Name="CreatedTime" Type="DateTime" Precision="0" />
+          <Property Name="UpdatedTime" Type="DateTime" Precision="0" />
+          <Property Name="KelompokName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Skill" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="StatusName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Divisi_id" Type="Int32" />
+          <Property Name="DivisiName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="FK_EmployeeSkill_ResourceEmployee">
+          <End Role="ResourceEmployee" Type="Self.ResourceEmployee" Multiplicity="0..1" />
+          <End Role="EmployeeSkill" Type="Self.EmployeeSkill" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ResourceEmployee">
+              <PropertyRef Name="Employee_id" />
+            </Principal>
+            <Dependent Role="EmployeeSkill">
+              <PropertyRef Name="Employee_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EmployeeSkill_Skillset">
+          <End Role="Skillset" Type="Self.Skillset" Multiplicity="0..1" />
+          <End Role="EmployeeSkill" Type="Self.EmployeeSkill" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Skillset">
+              <PropertyRef Name="Skillset_id" />
+            </Principal>
+            <Dependent Role="EmployeeSkill">
+              <PropertyRef Name="Skillset_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_jenjab_id">
+          <End Role="Jenjab" Type="Self.Jenjab" Multiplicity="0..1" />
+          <End Role="ResourceEmployee" Type="Self.ResourceEmployee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Jenjab">
+              <PropertyRef Name="Jenjab_id" />
+            </Principal>
+            <Dependent Role="ResourceEmployee">
+              <PropertyRef Name="Jenjab_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ResourceEmployee_Jenjab">
+          <End Role="Jenjab" Type="Self.Jenjab" Multiplicity="0..1" />
+          <End Role="ResourceEmployee" Type="Self.ResourceEmployee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Jenjab">
+              <PropertyRef Name="Jenjab_id" />
+            </Principal>
+            <Dependent Role="ResourceEmployee">
+              <PropertyRef Name="Jenjab_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ResourceEmployee_Kelompok">
+          <End Role="Kelompok" Type="Self.Kelompok" Multiplicity="0..1" />
+          <End Role="ResourceEmployee" Type="Self.ResourceEmployee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kelompok">
+              <PropertyRef Name="Kelompok_id" />
+            </Principal>
+            <Dependent Role="ResourceEmployee">
+              <PropertyRef Name="Kelompok_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UnitProfiling_Kelompok">
+          <End Role="Kelompok" Type="Self.Kelompok" Multiplicity="0..1" />
+          <End Role="UnitProfiling" Type="Self.UnitProfiling" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kelompok">
+              <PropertyRef Name="Kelompok_id" />
+            </Principal>
+            <Dependent Role="UnitProfiling">
+              <PropertyRef Name="Kelompok_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ProteamEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="EmployeeSkills" EntityType="Self.EmployeeSkill" />
+          <EntitySet Name="Jenjabs" EntityType="Self.Jenjab" />
+          <EntitySet Name="Kelompoks" EntityType="Self.Kelompok" />
+          <EntitySet Name="Lookups" EntityType="Self.Lookup" />
+          <EntitySet Name="Mandays" EntityType="Self.Manday" />
+          <EntitySet Name="ResourceEmployees" EntityType="Self.ResourceEmployee" />
+          <EntitySet Name="Skillsets" EntityType="Self.Skillset" />
+          <EntitySet Name="UnitProfilings" EntityType="Self.UnitProfiling" />
+          <AssociationSet Name="FK_EmployeeSkill_ResourceEmployee" Association="Self.FK_EmployeeSkill_ResourceEmployee">
+            <End Role="ResourceEmployee" EntitySet="ResourceEmployees" />
+            <End Role="EmployeeSkill" EntitySet="EmployeeSkills" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EmployeeSkill_Skillset" Association="Self.FK_EmployeeSkill_Skillset">
+            <End Role="Skillset" EntitySet="Skillsets" />
+            <End Role="EmployeeSkill" EntitySet="EmployeeSkills" />
+          </AssociationSet>
+          <AssociationSet Name="fk_jenjab_id" Association="Self.fk_jenjab_id">
+            <End Role="Jenjab" EntitySet="Jenjabs" />
+            <End Role="ResourceEmployee" EntitySet="ResourceEmployees" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ResourceEmployee_Jenjab" Association="Self.FK_ResourceEmployee_Jenjab">
+            <End Role="Jenjab" EntitySet="Jenjabs" />
+            <End Role="ResourceEmployee" EntitySet="ResourceEmployees" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ResourceEmployee_Kelompok" Association="Self.FK_ResourceEmployee_Kelompok">
+            <End Role="Kelompok" EntitySet="Kelompoks" />
+            <End Role="ResourceEmployee" EntitySet="ResourceEmployees" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UnitProfiling_Kelompok" Association="Self.FK_UnitProfiling_Kelompok">
+            <End Role="Kelompok" EntitySet="Kelompoks" />
+            <End Role="UnitProfiling" EntitySet="UnitProfilings" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ProteamModelStoreContainer" CdmEntityContainer="ProteamEntities">
+          <EntitySetMapping Name="EmployeeSkills">
+            <EntityTypeMapping TypeName="ProteamModel.EmployeeSkill">
+              <MappingFragment StoreEntitySet="EmployeeSkill">
+                <ScalarProperty Name="EmpSkill_id" ColumnName="EmpSkill_id" />
+                <ScalarProperty Name="Employee_id" ColumnName="Employee_id" />
+                <ScalarProperty Name="Skillset_id" ColumnName="Skillset_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Jenjabs">
+            <EntityTypeMapping TypeName="ProteamModel.Jenjab">
+              <MappingFragment StoreEntitySet="Jenjab">
+                <ScalarProperty Name="Jenjab_id" ColumnName="Jenjab_id" />
+                <ScalarProperty Name="JenjangJabatan" ColumnName="JenjangJabatan" />
+                <ScalarProperty Name="Cost" ColumnName="Cost" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="CreatedTime" ColumnName="CreatedTime" />
+                <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Kelompoks">
+            <EntityTypeMapping TypeName="ProteamModel.Kelompok">
+              <MappingFragment StoreEntitySet="Kelompok">
+                <ScalarProperty Name="DivisiId" ColumnName="DivisiId" />
+                <ScalarProperty Name="Kelompok_id" ColumnName="Kelompok_id" />
+                <ScalarProperty Name="Kelompok1" ColumnName="Kelompok" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="CreatedTime" ColumnName="CreatedTime" />
+                <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Lookups">
+            <EntityTypeMapping TypeName="ProteamModel.Lookup">
+              <MappingFragment StoreEntitySet="Lookup">
+                <ScalarProperty Name="Lookup_id" ColumnName="Lookup_id" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="OrderNumber" ColumnName="OrderNumber" />
+                <ScalarProperty Name="Value" ColumnName="Value" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="CreatedTime" ColumnName="CreatedTime" />
+                <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Mandays">
+            <EntityTypeMapping TypeName="ProteamModel.Manday">
+              <MappingFragment StoreEntitySet="Mandays">
+                <ScalarProperty Name="Mandays_id" ColumnName="Mandays_id" />
+                <ScalarProperty Name="VendorName" ColumnName="VendorName" />
+                <ScalarProperty Name="ContractNumber" ColumnName="ContractNumber" />
+                <ScalarProperty Name="StartContract" ColumnName="StartContract" />
+                <ScalarProperty Name="LastContract" ColumnName="LastContract" />
+                <ScalarProperty Name="TotalMandays" ColumnName="TotalMandays" />
+                <ScalarProperty Name="UsageMandays" ColumnName="UsageMandays" />
+                <ScalarProperty Name="AvailableMandays" ColumnName="AvailableMandays" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="CreatedTime" ColumnName="CreatedTime" />
+                <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+                <ScalarProperty Name="Notes" ColumnName="Notes" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ResourceEmployees">
+            <EntityTypeMapping TypeName="ProteamModel.ResourceEmployee">
+              <MappingFragment StoreEntitySet="ResourceEmployee">
+                <ScalarProperty Name="Vendor" ColumnName="Vendor" />
+                <ScalarProperty Name="Divisi" ColumnName="Divisi" />
+                <ScalarProperty Name="Employee_id" ColumnName="Employee_id" />
+                <ScalarProperty Name="Employee_name" ColumnName="Employee_name" />
+                <ScalarProperty Name="NPP" ColumnName="NPP" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="ActiveDate" ColumnName="ActiveDate" />
+                <ScalarProperty Name="LastWorkDate" ColumnName="LastWorkDate" />
+                <ScalarProperty Name="TotalManhour" ColumnName="TotalManhour" />
+                <ScalarProperty Name="ResourceType" ColumnName="ResourceType" />
+                <ScalarProperty Name="Jenjab_id" ColumnName="Jenjab_id" />
+                <ScalarProperty Name="Kelompok_id" ColumnName="Kelompok_id" />
+                <ScalarProperty Name="Role" ColumnName="Role" />
+                <ScalarProperty Name="ProjectExp" ColumnName="ProjectExp" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="CreatedTime" ColumnName="CreatedTime" />
+                <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Skillsets">
+            <EntityTypeMapping TypeName="ProteamModel.Skillset">
+              <MappingFragment StoreEntitySet="Skillset">
+                <ScalarProperty Name="Skillset_id" ColumnName="Skillset_id" />
+                <ScalarProperty Name="Skillset1" ColumnName="Skillset" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="CreatedTime" ColumnName="CreatedTime" />
+                <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UnitProfilings">
+            <EntityTypeMapping TypeName="ProteamModel.UnitProfiling">
+              <MappingFragment StoreEntitySet="UnitProfiling">
+                <ScalarProperty Name="DivisiName" ColumnName="DivisiName" />
+                <ScalarProperty Name="Divisi_id" ColumnName="Divisi_id" />
+                <ScalarProperty Name="StatusName" ColumnName="StatusName" />
+                <ScalarProperty Name="Skill" ColumnName="Skill" />
+                <ScalarProperty Name="KelompokName" ColumnName="KelompokName" />
+                <ScalarProperty Name="UpdatedTime" ColumnName="UpdatedTime" />
+                <ScalarProperty Name="CreatedTime" ColumnName="CreatedTime" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Unit_id" ColumnName="Unit_id" />
+                <ScalarProperty Name="Kelompok_id" ColumnName="Kelompok_id" />
+                <ScalarProperty Name="TotalEmployee" ColumnName="TotalEmployee" />
+                <ScalarProperty Name="TotalManhour" ColumnName="TotalManhour" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

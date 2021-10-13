@@ -1,0 +1,279 @@
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\appsettings.Development.json
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\appsettings.json
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.exe
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.deps.json
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.runtimeconfig.json
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.runtimeconfig.dev.json
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ref\ServiceProfile.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.pdb
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Humanizer.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.GeneratedMSBuildEditorConfig.editorconfig
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.AssemblyInfoInputs.cache
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.AssemblyInfo.cs
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.csproj.CoreCompileInputs.cache
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.MvcApplicationPartsAssemblyInfo.cs
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.MvcApplicationPartsAssemblyInfo.cache
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\obj\Debug\net5.0\staticwebassets\ServiceProfile.StaticWebAssets.Manifest.cache
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\obj\Debug\net5.0\staticwebassets\ServiceProfile.StaticWebAssets.xml
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\obj\Debug\net5.0\scopedcss\bundle\ServiceProfile.styles.css
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.RazorTargetAssemblyInfo.cache
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.csproj.CopyComplete
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ref\ServiceProfile.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.pdb
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.genruntimeconfig.cache
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Document\bni techship\BE-Proteam\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.csproj.AssemblyReference.cache
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\appsettings.Development.json
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\appsettings.json
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.exe
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.deps.json
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.runtimeconfig.json
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.runtimeconfig.dev.json
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ref\ServiceProfile.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.pdb
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Humanizer.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.GeneratedMSBuildEditorConfig.editorconfig
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.AssemblyInfoInputs.cache
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.AssemblyInfo.cs
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.csproj.CoreCompileInputs.cache
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.MvcApplicationPartsAssemblyInfo.cs
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.MvcApplicationPartsAssemblyInfo.cache
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\obj\Debug\net5.0\staticwebassets\ServiceProfile.StaticWebAssets.Manifest.cache
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\obj\Debug\net5.0\staticwebassets\ServiceProfile.StaticWebAssets.xml
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\obj\Debug\net5.0\scopedcss\bundle\ServiceProfile.styles.css
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.RazorTargetAssemblyInfo.cache
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.csproj.CopyComplete
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ref\ServiceProfile.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.pdb
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.genruntimeconfig.cache
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\appsettings.Development.json
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\appsettings.json
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.exe
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.deps.json
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.runtimeconfig.json
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.runtimeconfig.dev.json
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ref\ServiceProfile.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.pdb
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Humanizer.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.csproj.AssemblyReference.cache
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.GeneratedMSBuildEditorConfig.editorconfig
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.AssemblyInfoInputs.cache
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.AssemblyInfo.cs
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.csproj.CoreCompileInputs.cache
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.MvcApplicationPartsAssemblyInfo.cs
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.MvcApplicationPartsAssemblyInfo.cache
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\obj\Debug\net5.0\staticwebassets\ServiceProfile.StaticWebAssets.Manifest.cache
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\obj\Debug\net5.0\staticwebassets\ServiceProfile.StaticWebAssets.xml
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\obj\Debug\net5.0\scopedcss\bundle\ServiceProfile.styles.css
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.RazorTargetAssemblyInfo.cache
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.csproj.CopyComplete
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ref\ServiceProfile.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.pdb
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.genruntimeconfig.cache
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Document\bni techship\BE-Proteam_exsp\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\appsettings.Development.json
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\appsettings.json
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.exe
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.deps.json
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.runtimeconfig.json
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.runtimeconfig.dev.json
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ref\ServiceProfile.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\ServiceProfile.pdb
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Humanizer.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.GeneratedMSBuildEditorConfig.editorconfig
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.AssemblyInfoInputs.cache
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.AssemblyInfo.cs
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.csproj.CoreCompileInputs.cache
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.MvcApplicationPartsAssemblyInfo.cs
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.MvcApplicationPartsAssemblyInfo.cache
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\obj\Debug\net5.0\staticwebassets\ServiceProfile.StaticWebAssets.Manifest.cache
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\obj\Debug\net5.0\staticwebassets\ServiceProfile.StaticWebAssets.xml
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\obj\Debug\net5.0\scopedcss\bundle\ServiceProfile.styles.css
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.RazorTargetAssemblyInfo.cache
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.csproj.CopyComplete
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ref\ServiceProfile.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.pdb
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.genruntimeconfig.cache
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\ServiceProfile\obj\Debug\net5.0\ServiceProfile.csproj.AssemblyReference.cache

@@ -1,0 +1,20 @@
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\Scheduller\ConsoleProTeam\bin\Debug\ConsoleProTeam.exe.config
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\Scheduller\ConsoleProTeam\bin\Debug\ConsoleProTeam.exe
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\Scheduller\ConsoleProTeam\bin\Debug\ConsoleProTeam.pdb
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\Scheduller\ConsoleProTeam\bin\Debug\EntityFramework.dll
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\Scheduller\ConsoleProTeam\bin\Debug\EntityFramework.xml
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\Scheduller\ConsoleProTeam\obj\Debug\ConsoleProTeam.csproj.AssemblyReference.cache
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\Scheduller\ConsoleProTeam\obj\Debug\ConsoleProTeam.csproj.CoreCompileInputs.cache
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\Scheduller\ConsoleProTeam\obj\Debug\ConsoleProTeam.csproj.CopyComplete
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\Scheduller\ConsoleProTeam\obj\Debug\ConsoleProTeam.exe
+D:\OFA_2021\BE-Proteam_2\BE-Proteam\Scheduller\ConsoleProTeam\obj\Debug\ConsoleProTeam.pdb
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\Scheduller\ConsoleProTeam\bin\Debug\ConsoleProTeam.exe.config
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\Scheduller\ConsoleProTeam\bin\Debug\ConsoleProTeam.exe
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\Scheduller\ConsoleProTeam\bin\Debug\ConsoleProTeam.pdb
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\Scheduller\ConsoleProTeam\bin\Debug\EntityFramework.dll
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\Scheduller\ConsoleProTeam\bin\Debug\EntityFramework.xml
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\Scheduller\ConsoleProTeam\obj\Debug\ConsoleProTeam.csproj.CoreCompileInputs.cache
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\Scheduller\ConsoleProTeam\obj\Debug\ConsoleProTeam.csproj.CopyComplete
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\Scheduller\ConsoleProTeam\obj\Debug\ConsoleProTeam.exe
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\Scheduller\ConsoleProTeam\obj\Debug\ConsoleProTeam.pdb
+D:\Document\bni techship\BE-Proteamt4\BE-Proteam\Scheduller\ConsoleProTeam\obj\Debug\ConsoleProTeam.csproj.AssemblyReference.cache
